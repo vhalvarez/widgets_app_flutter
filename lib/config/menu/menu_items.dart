@@ -29,9 +29,14 @@ const appMenuItems = <MenuItem>[
       subTitled: 'Generales y controlados',
       link: '/progress',
       icon: Icons.refresh_rounded),
-       MenuItem(
+  MenuItem(
       title: 'Snackbars y dialogos',
       subTitled: 'Indicadores en pantalla',
       link: '/snackbar',
       icon: Icons.info_outline),
+  MenuItem(
+      title: 'Animated Container',
+      subTitled: 'Stateful widget animado',
+      link: '/animated',
+      icon: Icons.check_box_outlined),
 ];
